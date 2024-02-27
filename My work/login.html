@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+        body{
+            font-family: "Poppins", sans-serif;
+        }
+        .container{
+            /* border: 1px solid black; */
+            text-align: center;
+            margin: 100px 400px;
+            height: 390px;width: 500px;
+            border-radius: 10px;
+            box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        }
+        .container input{
+            height: 45px;
+            width:380px ;
+            margin: 15px;
+             padding-left: 15px;
+                border-radius: 10px;
+             background: rgb(245, 242, 242);
+             border:1px solid black;
+
+        }
+        .container form input::placeholder{
+font-size: medium;
+color: black;
+        }
+      input:focus{
+        outline: none;
+      }
+        .container a{
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .container input[type="submit"]{
+            background: green;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            width: 395px;
+            border: none;
+        }
+
+        .container h2{
+            font-size: xx-large;
+            font-weight: 500;
+            border-bottom: green 2px solid;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login here</h2>
+        <form action="home.html">
+            <input type="email" required placeholder="enter your email">
+            <br>
+            <input type="password" required placeholder="enter the password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+<p>Don't have an Account ? <a href="resister.html" title="resister here">Resister</a> here</p>
+    </div>
+    
+</body>
+</html>

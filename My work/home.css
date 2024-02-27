@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    margin-top: 0px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position:fixed;
+    background: #fff;
+    width: 100%;
+}
+nav ul{
+    display: inline-flex;
+    margin: 0px 150px;
+    padding-top: 30px;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+   color: black;
+    margin: 10px 20px;
+}
+li a:hover{
+    border-bottom: rgba(150, 75, 4, 0.664) 2px solid;
+    color: rgba(150, 75, 4, 0.664);
+}
+nav .icon{
+    margin-top: 20px;
+padding-top: 10px;
+
+}
+nav .icon i{
+    margin: 0px 10px;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+}
+nav .icon i:hover{
+    color:  rgb(150, 75, 4);
+}
+nav h1{
+    margin: 20px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+nav h1 span{
+    color: rgba(50, 150, 4, 0.664);
+}
+
+/* main content */
+
+/* section1 */
+main #first{
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    margin-left:40px;
+    padding-top: 90px;
+    background-size: cover;
+
+}
+#first p.no{
+    color: rgb(255, 145, 0);
+    font-size: x-large;
+    padding-top:30px;
+}
+#first p.tip{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+#first p.so{
+    margin: 10px 0px;
+    width: 500px;
+    font-size: small;
+}
+#first button{
+    margin: 30px 0px;
+    height: 50px;width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    color: white;
+    background: rgb(94, 47, 2);
+    cursor: pointer;
+}
+
+
+/* section2 */
+
+#second .class1,.class2,.class3{
+    display: inline-block;
+    height: 350px;
+    width: 230px;
+    border: black solid 1px;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 30px 10px;
+    border-radius: 10px;
+}
+#second .class1 img,.class2 img,.class3 img{
+ height: 120px;width: 150px;
+
+}
+#second{
+    margin: 40px 50px;
+}
+#second .class1{
+    margin-left: 40px;
+}
+#second .class1,.class3{
+    height: 390px;
+}
+#second .class1 button,.class2 button,.class3 button{
+height: 40px;
+width: 150px;
+font-size: medium;
+font-weight: bold;
+background: green;
+color: white;
+border: none;
+}
+#second h1{
+text-align: center;
+font-size: 37px;
+text-transform: uppercase;
+}
+
+/* footer */
+
+footer{
+   display: flex;
+   margin: 0px 0px;
+   padding: 0px 140px;
+   background: rgb(232, 227, 227);
+}
+footer .foot{
+    /* padding: 0px 40px; */
+    margin: 0px 25px;
+    width: 300px;
+}
+footer .foot p{
+  font-size: small;
+}
+footer .foot h2{
+    font-weight: 500;
+}
+footer .foot li{
+    list-style-type:circle;
+}
+footer .foot li a{
+    text-decoration: none;
+    color: black;
+    line-height: 9mm;
+}

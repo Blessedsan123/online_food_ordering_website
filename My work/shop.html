@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position:fixed;
+    background: #fff;
+}
+nav ul{
+    display: inline-flex;
+    margin: 0px 150px;
+    padding-top: 30px;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+   color: black;
+    margin: 10px 20px;
+}
+li a:hover{
+    border-bottom: rgba(50, 150, 4, 0.664) 2px solid;
+    color: rgba(50, 150, 4, 0.664);
+}
+nav .icon{
+    margin-top: 20px;
+padding-top: 10px;
+
+}
+nav .icon i{
+    margin: 0px 10px;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+}
+nav .icon i:hover{
+    color: rgba(50, 150, 4, 0.664);
+}
+nav h1{
+    margin: 20px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+nav h1 span{
+    color: rgba(50, 150, 4, 0.664);
+}
+/* mainsection */
+
+main{
+
+    margin: 80px;
+}
+main button{
+    margin: 10px;
+    height: 50px;width: 250px;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 5px;
+}
+main button:hover{
+    background: #000;
+    color: white;
+}
+.product{
+    border: 1px solid black;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left:50px;
+}
+
+main h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.product img{
+    height: 200px;width: 200px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.product h3{
+    background: rgb(105, 11, 11);
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+   display: flex;
+   margin: 0px 0px;
+   padding: 0px 140px;
+   background: rgb(232, 227, 227);
+}
+footer .foot{
+    /* padding: 0px 40px; */
+    margin: 0px 25px;
+    width: 300px;
+}
+footer .foot p{
+  font-size: small;
+}
+footer .foot h2{
+    font-weight: 500;
+}
+footer .foot li{
+    list-style-type:circle;
+}
+footer .foot li a{
+    text-decoration: none;
+    color: black;
+    line-height: 9mm;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Btech <span>Fruitwala</span></h1>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="orders.html">orders</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+<div class="icon">
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+</div>
+        </nav>
+    </header><br>
+    <main>
+        <button>Fruits</button>
+        <button>Vegies</button>
+        <button>Meat</button>
+        <button>Fish</button>
+<h1>Latest Products</h1>
+        <div class="product">
+            <h3>Rs.50/-</h3>
+            <img src="apple.jpg" alt="">
+            <h2>Kashmiri Apple</h2>
+            <button class="btn">Wist list</button><br>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="product">
+            <h3>Rs.40/-</h3>
+            <img src="curly.jpg" alt="">
+            <h2>Curly Flower</h2>
+            <button class="btn">Wist list</button><br>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="product">
+            <h3>Rs.250/-</h3>
+            <img src="fish.png" alt="">
+            <h2>sea salty fish</h2>
+            <button class="btn">Wist list</button><br>
+            <button class="btn">Add to cart</button>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+    <h2>Quick Links</h2>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">shop</a></li>
+    <li><a href="#">about</a></li>
+    <li><a href="#">contact</a></li>
+    </ul>
+        </div>
+        <div class="foot">
+            <h2>Extra Links</h2>
+            <ul>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Resister</a></li>
+            </ul>
+        </div>
+        <div class="foot">
+            <h2>Contact Info</h2>
+            <p><i class="fa-solid fa-phone"></i> &nbsp; +91 8211236545</p>
+            <p><i class="fa-solid fa-phone"></i> &nbsp; +91 3652498542</p>
+            <p><i class="fa-solid fa-envelope"></i> &nbsp; sandeep@gmail.com</p>
+            <p><i class="fa-solid fa-envelope"></i> &nbsp; subhrasis@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i>&nbsp;Jatni,Khordha,Odisha,India, 752050</p>
+        </div>
+        <div class="foot">
+            <h2>Follow us</h2>
+            <p><i class="fa-brands fa-facebook"></i> &nbsp; facebook</p>
+            <p><i class="fa-brands fa-instagram"></i> &nbsp; instagram</p>
+            <p><i class="fa-brands fa-linkedin"></i> &nbsp; linkedin</p>
+            <p><i class="fa-brands fa-twitter"></i> &nbsp; twitter</p>
+        </div>
+    </footer>
+</body>
+</html>

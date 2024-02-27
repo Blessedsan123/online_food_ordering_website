@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    position:fixed;
+    background: #fff;
+}
+nav ul{
+    display: inline-flex;
+    margin: 0px 150px;
+    padding-top: 30px;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+   color: black;
+    margin: 10px 20px;
+}
+li a:hover{
+    border-bottom: rgba(50, 150, 4, 0.664) 2px solid;
+    color: rgba(50, 150, 4, 0.664);
+}
+nav .icon{
+    margin-top: 20px;
+padding-top: 10px;
+
+}
+nav .icon i{
+    margin: 0px 10px;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+}
+nav h1{
+    margin: 20px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+nav h1 span{
+    color: rgba(50, 150, 4, 0.664);
+}
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+        body{
+            font-family: "Poppins", sans-serif;
+        }
+        .container{
+            /* border: 1px solid black; */
+            text-align: center;
+            margin: 100px 400px;
+            height: 550px;width: 500px;
+            border-radius: 10px;
+            box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        }
+        .container input{
+            height: 45px;
+            width:380px ;
+            margin: 10px;
+             padding-left: 15px;
+                border-radius: 10px;
+             background: rgb(245, 242, 242);
+             border:1px solid black;
+
+        }
+        .container form input::placeholder{
+font-size: medium;
+color: black;
+        }
+      input:focus{
+        outline: none;
+      }
+        .container a{
+            text-decoration: none;
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .container input[type="submit"]{
+            background: green;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            width: 395px;
+            border: none;
+        }
+
+        .container h2{
+            font-size: xx-large;
+            font-weight: 500;
+            border-bottom: green 2px solid;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+        textarea{
+            resize: none;
+            padding: 10px;
+            border-radius: 10px;
+            background: rgb(245, 242, 242);
+        }
+        textarea::placeholder{
+            color: black;
+            font-size: larger;
+        }
+        textarea:focus{
+            outline: none;
+        }
+        footer{
+   display: flex;
+   margin: 0px 0px;
+   padding: 0px 140px;
+   background: rgb(232, 227, 227);
+}
+footer .foot{
+    /* padding: 0px 40px; */
+    margin: 0px 25px;
+    width: 300px;
+}
+footer .foot p{
+  font-size: small;
+}
+footer .foot h2{
+    font-weight: 500;
+}
+footer .foot li{
+    list-style-type:circle;
+}
+footer .foot li a{
+    text-decoration: none;
+    color: black;
+    line-height: 9mm;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Btech <span>Fruitwala</span></h1>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="orders.html">orders</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+<div class="icon">
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+</div>
+        </nav>
+    </header><br>
+  <main>
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <form action="#">
+            <input type="text" placeholder="enter your full name" required>
+            <input type="email" required placeholder="enter your email">
+            <br>
+            <input type="text" required placeholder="enter the number">
+            <br>
+         <textarea cols="48" rows="9" placeholder="enter your message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+  </main>
+  <footer>
+    <div class="foot">
+<h2>Quick Links</h2>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">shop</a></li>
+<li><a href="#">about</a></li>
+<li><a href="#">contact</a></li>
+</ul>
+    </div>
+    <div class="foot">
+        <h2>Extra Links</h2>
+        <ul>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Resister</a></li>
+        </ul>
+    </div>
+    <div class="foot">
+        <h2>Contact Info</h2>
+        <p><i class="fa-solid fa-phone"></i> &nbsp; +91 8211236545</p>
+        <p><i class="fa-solid fa-phone"></i> &nbsp; +91 3652498542</p>
+        <p><i class="fa-solid fa-envelope"></i> &nbsp; sandeep@gmail.com</p>
+        <p><i class="fa-solid fa-envelope"></i> &nbsp; subhrasis@gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i>&nbsp;Jatni,Khordha,Odisha,India, 752050</p>
+    </div>
+    <div class="foot">
+        <h2>Follow us</h2>
+        <p><i class="fa-brands fa-facebook"></i> &nbsp; facebook</p>
+        <p><i class="fa-brands fa-instagram"></i> &nbsp; instagram</p>
+        <p><i class="fa-brands fa-linkedin"></i> &nbsp; linkedin</p>
+        <p><i class="fa-brands fa-twitter"></i> &nbsp; twitter</p>
+    </div>
+</footer>
+</body>
+</html>
